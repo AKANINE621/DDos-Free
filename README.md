@@ -1,4 +1,6 @@
 # DDos-Free
 how to use
 install python3 
-python3 ddos.py
+python3 DoS.py
+
+pip3 install requests scapy
