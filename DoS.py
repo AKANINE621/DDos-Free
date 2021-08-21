@@ -83,7 +83,7 @@ def start_url():
 
 def start_port():
     global port
-    print("-----------------------------")
+    print("-DDos By ZeroDark-")
     port = str(input(" Port: "))
     if port == '':
         if "http" in url:
@@ -110,7 +110,7 @@ def start_mode():
 
 def choice_method_attack():
     global method_attack, name_method_attack
-    print("-----------------------------")
+    print("-DDos By ZeroDark-")
     print(" 1: HTTP Request [ Normal ]")
     print(" 2: HTTP Request [  Spam  ]")
     method_attack = input("Choice Request [1/2]: ")
@@ -132,7 +132,7 @@ def choice_method_attack():
 def numthreads():
     global threads
     try:
-        print("-----------------------------")
+        print("-DDos By ZeroDark-")
         threads = int(input(" Threads [2000]: "))
     except ValueError:
         threads = int(2000)
